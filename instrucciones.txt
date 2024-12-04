@@ -1,0 +1,13 @@
+#Instrucciones de crear el contenedor
+
+1. Crear el archivo "Dockerfile"
+
+2. Compilar la applicacion
+
+	docker build -t springboot-app .
+
+3. Correr la aplicación
+
+	docker run -p 8080:8080 springboot-app
+
+
